@@ -14,8 +14,8 @@ html,body{
     display:flex;
     justify-content: center;
     flex-direction: column;
-    height : 700px;
-    width : 400px;
+    height : 525px;
+    width : 300px;
     background-color: #15273f;
     border-radius: 10px;
 
@@ -41,6 +41,7 @@ html,body{
 .bottomDiv{
     margin: 5px 25px;
     color : white;
+    font-size: 12px;
 }
 .elements{
     display: flex;
@@ -48,17 +49,16 @@ html,body{
     justify-content: space-between;
 }
 .upperText h1{
-    margin-top: 10px;
+    font-size: 22px;
 }
 .lowerText {
     color: #516787;
-    font-size: medium;
 }
 .ethElement{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 33%;
+    width: 35%;
     justify-content: space-between;
 }
 .bottomElements{
@@ -73,7 +73,6 @@ html,body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: small;
 }
 .profileElement img {
     border: 3px solid white;
@@ -83,4 +82,5 @@ html,body{
 .profileElement h2 {
     margin: 20px;
     color: #516787;
+    font-size: 14px;
 }
